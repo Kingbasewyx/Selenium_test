@@ -51,6 +51,9 @@
                 <configuration>
                     <reportFormat>brief</reportFormat>
                     <skipTests>false</skipTests>
+                    <includes>
+                        <include>**/*Test.java</include>
+                    </includes>
                 </configuration>
             </plugin>
         </plugins>
